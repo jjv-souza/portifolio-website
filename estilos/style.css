@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+:root {
+    --destaque: #6156F0;
+    --letra-destaque: #414485;
+    --fundo: #0A111C;
+    --fundo-card: #121A28;
+    --menu: #090E19;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--fundo);
+}
+
+.menu {
+    background-color: var(--menu);
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px;
+}
+
+#menu-burg {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 2em;
+
+    transition: transform .3s ease;
+}
+
+#menu-burg:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
