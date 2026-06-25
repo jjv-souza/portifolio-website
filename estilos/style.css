@@ -19,20 +19,26 @@ body {
     background-color: var(--fundo);
 }
 
+.logo img {
+    width: 80px;
+}
+
 .menu {
     background-color: var(--menu);
 
     display: flex;
+    align-items: center;
     justify-content: space-between;
 
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
 }
 
 #menu-burg {
     background-color: transparent;
     color: white;
     border: none;
-    font-size: 2em;
+    font-size: 1.5em;
 
     transition: transform .3s ease;
 }
@@ -42,4 +48,49 @@ body {
     transform: scale(1.1);
 }
 
+.menu-pc { /* Opções */
+    background-color: black;
+    color: white;
+    height: 100%;
+    padding: 40px;
+    padding-top: 100px;
+
+    display: column;
+    align-items: center;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#exit-menu-burg {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+
+    margin: 30px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu-pc a {
+    font-size: 1.5em;
+
+    display: flex;
+    color: white;
+    text-decoration: none;
+
+    padding: 10px;
+
+    transition: color .3s ease;
+}
+
+.menu-pc a:hover {
+    color: var(--destaque);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
 
