@@ -165,7 +165,7 @@ a {
 }
 
 .banner {
-    background-image: linear-gradient(to right, var(--fundo), transparent), url(/imagens/banner-projeto.png);
+    background-image: linear-gradient(to right, var(--fundo), transparent), url(imagens/banner-projeto.png);
 
     background-size: cover;
     background-repeat: no-repeat;
