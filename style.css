@@ -311,15 +311,41 @@ main h1 > i {
 }
 
 .projetos {
-    display: flex;
-
+    background-color: var(--fundo-card);
+    padding: 20px;
     margin: 40px 20px;
+    border-radius: 20px;
+}
+
+.projetos .card-op {
+    display: none;
+}
+
+.projetos img {
+    transition: opacity .3s ease,
+                transform .3s ease;
+}
+
+.projetos img:hover {
+    opacity: .8;
+    transform: scale(1.02);
+}
+
+.projetos h2 {
+    padding-bottom: 20px;
 }
 
 .projetos .caixa-texto {
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.projetos img {
+    padding-bottom: 40px;
+    width: 400px;
+    max-width: 100%;
 }
 
 .projetos h3 {
@@ -332,7 +358,9 @@ main h1 > i {
     gap: 10px;
 }
 
-.cod .html, .css, .js {
+.cod .html,
+.cod .css,
+.cod .js {
     padding: 5px 8px;
     border-radius: 5px;
 }
@@ -354,7 +382,7 @@ main h1 > i {
 
 .projetos .botao-inverso {
     width: max-content;
-    padding: 10px 40px;
+    padding: 10px 50px;
 }
 
 .contato {

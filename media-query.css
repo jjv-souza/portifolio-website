@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+:root {
+    --destaque: #6156F0;
+    --letra: #e0e0e0;
+    --fundo: #0A111C;
+    --fundo-card: #121A28;
+    --menu: #050a14;
+}
+
+@media (min-width: 800px) {
+    .card1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sobre {
+        flex: 1;
+        text-align: justify;
+        margin: 0px;
+        margin-left: 20px;
+        border-radius: 0px 0px 0px 20px;
+    }
+
+    .habilidades {
+        background-color: var(--fundo-card);
+        width: 50%;
+        margin: 0px;
+        margin-right: 20px;
+        border-radius: 0px 0px 20px 0px;
+    }
+
+    .card2 {
+        display: flex;
+    }
+
+    .projetos {
+        flex: 1;
+        background-color: var(--menu);
+        padding: 20px;
+        padding-bottom: 40px;
+        border-radius: 20px 0px 0px 20px;
+        margin: 40px 0px;
+        margin-left: 20px;
+    }   
+
+    .projetos .container {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .projetos .card {
+        background-color: var(--fundo-card);
+        width: 265px;
+        margin-bottom: 40px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .projetos .cod {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .projetos .caixa-texto {
+        padding: 0px 20px;
+        padding-bottom: 20px;
+    }
+
+    .contato {
+        width: 50%;
+        background-color: var(--menu);
+        margin: 40px 0px;
+        margin-right: 20px;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    footer {
+        background-color: var(--fundo-card);
+    }
+}
+
+@media (min-width: 1390px) {
+
+    .projetos {
+        flex: 3;
+    }
+
+    .projetos .card-op {
+        display: block;
+    }
+
+    .contato {
+        flex: 1;
+    }
+
+}

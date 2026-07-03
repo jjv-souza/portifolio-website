@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
     <script src="https://kit.fontawesome.com/ac52fd1507.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -49,89 +50,116 @@
         </section>
     </header>
     <main>
-        <section class="sobre card-section">
-            <h1 class="titulo destaque"><i class="fa-solid fa-star"></i>SOBRE MIM</h1>
-            <div class="caixa-texto">
-                <h2 class="titulo">Um pouco sobre mim</h2>
-                <p class="texto">Sou desenvolvedor Front-End em formação apaixonado por transformar ideias em interfaces modernas, bonitas e funcionais. Sempre buscando aprender coisas novas e evoluir como dev.</p>
-            </div>
-            <a class="botao-inverso" href="#">Saiba mais sobre mim</a>
-        </section>
-
-        <section class="habilidades">
-            <h1 class="titulo destaque"><i class="fa-solid fa-star"></i>MINHAS HABILIDADES</h1>
+        <section class="card1">
+            <section class="sobre card-section">
+                <h1 class="titulo destaque"><i class="fa-solid fa-star"></i>SOBRE MIM</h1>
+                <div class="caixa-texto">
+                    <h2 class="titulo">Um pouco sobre mim</h2>
+                    <p class="texto">Sou desenvolvedor Front-End em formação apaixonado por transformar ideias em interfaces modernas, bonitas e funcionais. Sempre buscando aprender coisas novas e evoluir como dev.</p>
+                </div>
+                <a class="botao-inverso" href="#">Saiba mais sobre mim</a>
+            </section>
+            <section class="habilidades">
+                <h1 class="titulo destaque"><i class="fa-solid fa-star"></i>MINHAS HABILIDADES</h1>
             
-            <div class="container">
-                <article class="card">
-                    <img src="imagens/logos/logo-html.svg" alt="">
-                    <h3 class="titulo texto">HTML</h3>
-                </article>
-
-                <article class="card">
-                    <img src="imagens/logos/logo-css.svg" alt="">
-                    <h3 class="titulo texto">CSS</h3>
-                </article>
-
-                <article class="card">
-                    <img src="imagens/logos/logo-js.svg" alt="">
-                    <h3 class="titulo texto">JavaScript</h3>
-                </article>
-                
-                <article class="card">
-                    <img src="imagens/logos/logo-git.svg" alt="">
-                    <h3 class="titulo texto">Git</h3>
-                </article>
-
-                <article class="card">
-                    <img class="github" src="imagens/logos/logo-github.svg" alt="">
-                    <h3 class="titulo texto">GitHub</h3>
-                </article>
-            </div>
+                <div class="container">
+                    <article class="card">
+                        <img src="imagens/logos/logo-html.svg" alt="">
+                        <h3 class="titulo texto">HTML</h3>
+                    </article>
+                    <article class="card">
+                        <img src="imagens/logos/logo-css.svg" alt="">
+                        <h3 class="titulo texto">CSS</h3>
+                    </article>
+                    <article class="card">
+                        <img src="imagens/logos/logo-js.svg" alt="">
+                        <h3 class="titulo texto">JavaScript</h3>
+                    </article>
+            
+                    <article class="card">
+                        <img src="imagens/logos/logo-git.svg" alt="">
+                        <h3 class="titulo texto">Git</h3>
+                    </article>
+                    <article class="card">
+                        <img class="github" src="imagens/logos/logo-github.svg" alt="">
+                        <h3 class="titulo texto">GitHub</h3>
+                    </article>
+                </div>
+            </section>
         </section>
 
-        <section class="projetos card-section">
-            <h1 class="titulo destaque"><i class="fa-solid fa-star"></i>MEUS PROJETOS</h1>
-            <div class="caixa-texto">
+        <section class="card2">
+            <section class="projetos">
+                <h1 class="titulo destaque"><i class="fa-solid fa-star"></i>MEUS PROJETOS</h1>
                 <h2 class="titulo">Projetos em destaque</h2>
-                <img src="imagens/website-academia.png" alt="projeto-academia">
-                <h3 class="titulo">Academia Power Fitness</h3>
-                <p class="texto">Site institucional de uma academia com layout moderno e responsivo.</p>
-                <div class="cod">
-                    <p class="html">HTML</p>
-                    <p class="css">CSS</p>
-                    <p class="js">JavaScript</p>
+                <div class="container">
+                    <div class="card">
+                        <a class="proj" target="_blank" href=""><img src="imagens/website-academia.png" alt="projeto-academia"></a>
+                        <div class="caixa-texto">
+                            <h3>Academia Power Fitness</h3>
+                            <p class="texto">Site institucional de uma academia com layout moderno e responsivo.</p>
+                            <div class="cod">
+                                <p class="html">HTML</p>
+                                <p class="css">CSS</p>
+                                <p class="js">JavaScript</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-op">
+                        <a class="proj" target="_blank" href=""><img src="imagens/website-hamburgueria.png" alt="projeto-academia"></a>
+                        <div class="caixa-texto">
+                            <h3>Academia Power Fitness</h3>
+                            <p class="texto">Site institucional de uma academia com layout moderno e responsivo.</p>
+                            <div class="cod">
+                                <p class="html">HTML</p>
+                                <p class="css">CSS</p>
+                                <p class="js">JavaScript</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-op">
+                        <a class="proj" target="_blank" href=""><img src="imagens/website-cabelereiro.png" alt="projeto-academia"></a>
+                        <div class="caixa-texto">
+                            <h3>Academia Power Fitness</h3>
+                            <p class="texto">Site institucional de uma academia com layout moderno e responsivo.</p>
+                            <div class="cod">
+                                <p class="html">HTML</p>
+                                <p class="css">CSS</p>
+                                <p class="js">JavaScript</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <a class="botao-inverso" href="#">Ver Todos</a>
-            </div>
-        </section>
-
-        <section class="contato">
-            <h1 class="titulo destaque"><i class="fa-solid fa-star"></i>ENTRE EM CONTATO</h1>
-            <div class="caixa-texto">
-                <h2 class="titulo">Quer Conversar?</h2>
-                <p class="texto">Tem um projeto em mente ou quer bater um papo? <br>
-                     Estou sempre aberto a novas oportunidades.</p>
-            </div>
-            <div class="container">
-                <div class="card">
-                    <div class="email">
-                        <i class="fa-regular fa-envelope"></i>
+            </section>
+            <section class="contato">
+                <h1 class="titulo destaque"><i class="fa-solid fa-star"></i>ENTRE EM CONTATO</h1>
+                <div class="caixa-texto">
+                    <h2 class="titulo">Quer Conversar?</h2>
+                    <p class="texto">Tem um projeto em mente ou quer bater um papo? <br>
+                         Estou sempre aberto a novas oportunidades.</p>
+                </div>
+                <div class="container">
+                    <div class="card">
+                        <div class="email">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div class="info">
+                            <h3 class="titulo">Email</h3>
+                            <p class="texto">Senhorqoficial@gmail.com</p>
+                        </div>
                     </div>
-                    <div class="info">
-                        <h3 class="titulo">Email</h3>
-                        <p class="texto">Senhorqoficial@gmail.com</p>
+                    <div class="card">
+                        <div class="whats">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div class="info">
+                            <h3 class="titulo">WhatsApp</h3>
+                            <p class="texto">(38) 99732-4275</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="whats">
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </div>
-                    <div class="info">
-                        <h3 class="titulo">WhatsApp</h3>
-                        <p class="texto">(38) 99732-4275</p>
-                    </div>
-                </div>
-            </div>
+            </section>
         </section>
     </main>
 
