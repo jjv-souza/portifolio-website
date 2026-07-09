@@ -6,6 +6,7 @@
     <title>Portfólio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media-query.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/ac52fd1507.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -14,34 +15,36 @@
             <div class="logo">
                 <img src="imagens/logos/logo-js-tranparente.png" alt="Logo Joao Victor Souza">
             </div>
-
-            <button id="menu-burg"><i class="fa-solid fa-bars"></i></button>
-                
             <div id="menu-pc" class="menu-pc">
                 <button id="exit-menu-burg">
                     <i class="fa-solid fa-x"></i>
                 </button>
                 <ul class="opcoes">
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="#">Habilidades</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#banner">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#habilidade">Habilidades</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </div>
+            <nav class="social">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                <button id="menu-burg"><i class="fa-solid fa-bars"></i></button>
+            </nav>
         </nav>
-        <section class="banner">
+        <section id="banner" class="banner">
             <div class="caixa-texto">
                 <p class="destaque">Olá, eu sou</p>
                 <h1 class="titulo">João Victor Souza</h1>
                 <h2 class="titulo destaque">Desenvolvedor Front-End</h2>
                 <p class="texto">Desenvolvo sites modernos, responsivos e focados em desempenho e na melhor experiência do usuário.</p>
                 <div class="botoes">
-                    <a href="#" class="botao">Ver Projetos<i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="https://github.com/Souza-JV" class="botao">Ver Projetos<i class="fa-solid fa-arrow-right"></i></a>
                     <a href="#" class="botao-inverso">Baixar Currículo<i class="fa-solid fa-download"></i></a>
                 </div>
                 <div class="perfil">
-                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/Souza-JV"><i class="fa-brands fa-github"></i></a>
                     <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
                     <a href="#"><i class="fa-regular fa-envelope"></i></a>
@@ -51,7 +54,7 @@
     </header>
     <main>
         <section class="card1">
-            <section class="sobre card-section">
+            <section id="sobre" class="sobre card-section">
                 <h1 class="titulo destaque"><i class="fa-solid fa-star"></i>SOBRE MIM</h1>
                 <div class="caixa-texto">
                     <h2 class="titulo">Um pouco sobre mim</h2>
@@ -59,7 +62,7 @@
                 </div>
                 <a class="botao-inverso" href="#">Saiba mais sobre mim</a>
             </section>
-            <section class="habilidades">
+            <section id="habilidade" class="habilidades">
                 <h1 class="titulo destaque"><i class="fa-solid fa-star"></i>MINHAS HABILIDADES</h1>
             
                 <div class="container">
@@ -89,12 +92,12 @@
         </section>
 
         <section class="card2">
-            <section class="projetos">
+            <section id="projetos" class="projetos">
                 <h1 class="titulo destaque"><i class="fa-solid fa-star"></i>MEUS PROJETOS</h1>
                 <h2 class="titulo">Projetos em destaque</h2>
                 <div class="container">
-                    <div class="card">
-                        <a class="proj" target="_blank" href=""><img src="imagens/website-academia.png" alt="projeto-academia"></a>
+                    <div class="card pj-ac">
+                        <a class="proj" target="_blank" href="https://souza-jv.github.io/academia-website/"><img src="imagens/website-academia.png" alt="projeto-academia"></a>
                         <div class="caixa-texto">
                             <h3>Academia Power Fitness</h3>
                             <p class="texto">Site institucional de uma academia com layout moderno e responsivo.</p>
@@ -105,8 +108,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card card-op">
-                        <a class="proj" target="_blank" href=""><img src="imagens/website-hamburgueria.png" alt="projeto-academia"></a>
+                    <div class="card pj-ha">
+                        <a class="proj" target="_blank" href="https://souza-jv.github.io/hamburgueria-website/"><img src="imagens/website-hamburgueria.png" alt="projeto-hamburgueria"></a>
                         <div class="caixa-texto">
                             <h3>Academia Power Fitness</h3>
                             <p class="texto">Site institucional de uma academia com layout moderno e responsivo.</p>
@@ -117,8 +120,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card card-op">
-                        <a class="proj" target="_blank" href=""><img src="imagens/website-cabelereiro.png" alt="projeto-academia"></a>
+                    <div class="card pj-ca">
+                        <a class="proj" target="_blank" href="https://souza-jv.github.io/modern-barbershop/"><img src="imagens/website-cabelereiro.png" alt="projeto-cabelereiro"></a>
                         <div class="caixa-texto">
                             <h3>Academia Power Fitness</h3>
                             <p class="texto">Site institucional de uma academia com layout moderno e responsivo.</p>
@@ -130,9 +133,9 @@
                         </div>
                     </div>
                 </div>
-                <a class="botao-inverso" href="#">Ver Todos</a>
+                <a class="botao-inverso" href="https://github.com/Souza-JV">Ver Todos</a>
             </section>
-            <section class="contato">
+            <section id="contato" class="contato">
                 <h1 class="titulo destaque"><i class="fa-solid fa-star"></i>ENTRE EM CONTATO</h1>
                 <div class="caixa-texto">
                     <h2 class="titulo">Quer Conversar?</h2>

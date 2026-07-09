@@ -9,6 +9,26 @@
 }
 
 @media (min-width: 800px) {
+    #menu-burg {
+        display: none;
+    }
+
+    #exit-menu-burg {
+        display: none;
+    }
+
+    .menu-pc {
+        font-size: .8em;
+        padding: 0px;
+        position: relative;
+        transform: translateX(0);
+    }
+
+    .menu-pc .opcoes {
+        display: flex;
+        gap: 10px;
+    }
+
     .card1 {
         display: flex;
         justify-content: space-between;
@@ -36,18 +56,20 @@
 
     .projetos {
         flex: 1;
+
         background-color: var(--menu);
+        border-radius: 20px 0px 0px 20px;
+
         padding: 20px;
         padding-bottom: 40px;
-        border-radius: 20px 0px 0px 20px;
         margin: 40px 0px;
         margin-left: 20px;
     }   
 
     .projetos .container {
         display: flex;
+        justify-content: center;
         gap: 20px;
-        flex-wrap: wrap;
     }
 
     .projetos .card {
@@ -82,18 +104,23 @@
     }
 }
 
+@media (min-width: 1100px) {
+    .pj-ha {
+        display: block;
+    }
+}
+
 @media (min-width: 1390px) {
 
     .projetos {
         flex: 3;
     }
 
-    .projetos .card-op {
+    .pj-ca {
         display: block;
     }
 
     .contato {
         flex: 1;
     }
-
 }
