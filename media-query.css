@@ -25,6 +25,7 @@
     }
 
     .menu-pc .opcoes {
+        color: var(--letra);
         display: flex;
         gap: 10px;
     }
@@ -43,7 +44,6 @@
     }
 
     .habilidades {
-        background-color: var(--fundo-card);
         width: 50%;
         margin: 0px;
         margin-right: 20px;

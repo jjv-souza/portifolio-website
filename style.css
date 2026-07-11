@@ -286,7 +286,7 @@ main h1 > i {
 }
 
 .habilidades {
-    background-color: var(--menu);
+    background-color: var(--fundo-card);
     border-radius: 20px;
 
     padding-bottom: 20px;
